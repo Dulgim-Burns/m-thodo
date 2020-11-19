@@ -1,0 +1,19 @@
+body{
+  background-color: bbb5bd;
+  vertical-align: middle;
+}
+
+.centre{
+  background-color: cdd3ce;
+  margin: 100 auto;
+  width: 270px;
+  height: 130px;
+  text-align: center;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.btn_recom
+{
+  margin-top: 50px;
+}
