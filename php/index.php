@@ -2,16 +2,17 @@
 
 <html>
     <head>
-        <title>Hello World</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Conversion</title>
     </head>
 
     <body>
       <main>
-
+        <div class="centre">
         <form action="form.php" method="post">
           <div class="entree">
-            <label for="valeur">valeur</label>
-            <input type="text" name="valeur">
+            <p>Conversion :</p>
+            <input class="valeur" type="number" value="Valeur à convertir" name="valeur">
             <select name="unite">
               <optgroup>
                 <option value="metre">Mètre</option>
@@ -24,7 +25,7 @@
           </div>
 
           <div>
-            Convertie en
+            Convertir en
           </div>
 
           <div>
@@ -39,10 +40,10 @@
           </div>
 
           <div class="btn">
-            <input type="submit" value="Envoyer">
+            <input type="submit" value="Convertir">
           </div>
         </form>
-
+        </div>
       </main>
     </body>
 </html>
