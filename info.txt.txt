@@ -1,0 +1,3 @@
+Pour acceder au site docker utilise le port 8100 l'url sera donc :
+
+http://localhost:8100
